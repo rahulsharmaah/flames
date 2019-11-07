@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+
+.effect5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .effect5:before, .effect5:after
+  {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 25px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+  }
+  .effect5:after {
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
+    right: 10px;
+    left: auto;
+  }
+  
+form input {
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+     background: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    margin:15px 0;
+	padding:15px 10px;
+    width:50%;
+    font-size: 20px;
+	border-radius:20px;
+    display:inline-block;
+    font-family: 'Yeon Sung', cursive;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+    -webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+form input[type=text]:focus{
+    border-color: 3px solid cornflowerblue;
+     background: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%) 
+}
+
+.buttons {
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+     background: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    margin:15px 0;
+	padding:15px 10px;
+    width:50%;}
+    .top{
+        align-content: center;
+        position: sticky;
+    }

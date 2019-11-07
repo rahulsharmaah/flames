@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title>FLAMES</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="heart.css">
+		<script type='text/javascript' src='flames.js'></script>
+	<style>
+	body{
+		background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+font-family: 'Yeon Sung', cursive;
+	}
+	h6{
+        margin:0 auto;
+    width:200px;
+    font-size: 72px;
+    background: linear-gradient( 319.6deg,  rgba(243,0,79,1) 20.5%, rgba(255,236,68,1) 110.9% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-family:'Lily Script One', cursive;
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	-webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+h6:hover {
+	color:cornflowerblue;}
+.container{
+    margin-top: 100px;
+}
+	</style>
+	</head>
+	<body>
+            <div class="top" ><h2></h2>Follow me here:</h2><br><a href="https://www.github.com/rahulsharmaah"><i id="icon" class="fab fa-github"></i>
+                <a href="https://www.facebook.com/rahulsharmaah" > <i id="icon" class="fab fa-facebook" href="https://www.facebook.com/rahulsharmaah"></i></a>
+             <a href="https://www.instagram.com/rahulsharmaah" > <i id="icon" class="fab fa-instagram"></i></a>
+              <a href="https://www.twitter.com/rahulsharmaah"><i id="icon"class="fab fa-twitter-square"></i></a>
+              <a href="https://www.linkedin.com/in/rahulsharmaah"><i id="icon" class="fab fa-linkedin"></i></a>
+          </div>
+          
+		<div class="container">
+    	<div class="heart">&#x2665<span></span><h6>FLAMES </h6>&#x2665</div></div>
+   			 <form name=first>
+                    <div class="box effect5">
+                            <h3>This one looks like the first one</h3>
+                            //user details*/*
+                         <div class="username" align='center'  >
+                        <b>Your Name</b>
+                        <input value='' name=name onkeyup=checnum(this) type=text class='txt' id='yname'>
+                    </div>    <br>              
+                    <div class='lovername' align='center'> <b>Your Lover's Name </b>                                   
+                        <input value='' name=name1 onkeyup=checnum(this) type=text class='txt' id='lname'>
+                    </div>
+					 <div name=n1 id=nam1></div>
+					<div style='font-weight:bold;' id='msg'></div>
+                </div>
+                <div class='submit'>
+                    <input name=calculate type=button value=FLAMES onclick=calc() class='buttons'>
+                    <input type=reset value=Reset onclick='clear_all()' class='buttons'>
+			<span  align='center' style="font-size: 10px;color: #dadada;" id="dumdiv">
+            </span>
+                </div>
+            </div>
+    
+            <div id='tablid' class='clearfix'>
+                <div class='group' align='center'>
+                    <div class='love_result'>
+                    </div>
+                </div>
+            </div></form></div>
+    </form>
+</div>
+</body>
+</html>
