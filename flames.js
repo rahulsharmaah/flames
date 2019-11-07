@@ -78,32 +78,32 @@ function calc()
                     if(ar=="F")
                     {
                             //res="FRIENDS";
-							document.getElementById("msg").innerHTML = 'FRIENDS';
-							document.getElementById("msg").style.color='blue';                  
+							document.getElementById("msg").innerHTML = 'Your relationship is :FRIENDS';
+							document.getElementById("msg").style.color='black';                  
                     }
                     else if(ar=="L")
                     {
                             //res="LOVER";
-							document.getElementById("msg").innerHTML = 'LOVER';
-							document.getElementById("msg").style.color='#FF0080';
+							document.getElementById("msg").innerHTML = ' Your relationship is :LOVER';
+							document.getElementById("msg").style.color='maroon';
                     }
                     else if(ar=="A")
                     {
                             //res="AFFECTION";
-							document.getElementById("msg").innerHTML = 'AFFECTION';
-							document.getElementById("msg").style.color='#DBA901';
+							document.getElementById("msg").innerHTML = 'Your relationship is : AFFECTION';
+							document.getElementById("msg").style.color='orange';
                     } 
                     else if(ar=="M")
                     {
                             //res="MARRIAGE";
-							document.getElementById("msg").innerHTML = 'MARRIAGE';
-							document.getElementById("msg").style.color='green';
+							document.getElementById("msg").innerHTML = 'Your relationship is :MARRIAGE';
+							document.getElementById("msg").style.color='purple';
                     }
                     else if(ar=="E")
                     {	
                             //res="ENEMY";
-							document.getElementById("msg").innerHTML = 'ENEMY';
-							document.getElementById("msg").style.color='red';
+							document.getElementById("msg").innerHTML = 'Your relationship is :ENEMY';
+							document.getElementById("msg").style.color='gold';
                     }
                     else if(ar=="S")
                     {
@@ -112,7 +112,7 @@ function calc()
 							document.getElementById("msg").style.color='violet';
                     }
                     document.getElementById("nam"+1).style.display = 'block';
-                    document.getElementById("nam"+1).textContent=nam + " & " +names;
+                    document.getElementById("nam"+1).textContent="Hye" + " "+nam + " &" +names;
             }
             else
             {
