@@ -8,8 +8,8 @@ body {
 	color: #fff;
     background: linear-gradient(-45deg, #23a6d5, #23d5ab , rgb(182, 244, 146), rgba(0,40,60,1) ,rgba(0,143,213,1), rgba(221,49,49,1));
 	background-size: 400% 400%;
-	-webkit-animation: gradientBG 10s ease infinite;
-	        animation: gradientBG 10s ease infinite;
+	-webkit-animation: gradientBG 30s ease infinite;
+	        animation: gradientBG 30s ease infinite;
 }
 h1 {
     font-weight: 900;
