@@ -152,3 +152,8 @@ form input[type=text]:focus{
         -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
     }
+.container{
+	display:flex;
+	align-items:center;
+	justify:content:center;
+}
